@@ -26,6 +26,7 @@ npm-debug.log*
 /dist
 /.next
 /out
+style-guide.md
 
 # IDEs and editors
 /.idea
