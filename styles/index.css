@@ -1,5 +1,104 @@
+:root {
+    --font-family: 'Red Hat Display', sans-serif;
+    --primary-color: hsl(0, 100%, 74%);
+    --primary-color-green: hsl(154, 59%, 51%);
+    --accent-color: hsl(248, 32%, 49%);
+    --gray: hsl(249, 10%, 26%);
+    --purple: hsl(248, 32%, 49%);
+    --white: hsl(0, 0%, 100%);
+    --font-family: "Poppins", sans-serif;
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+
+}
+
+
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:  hsl(0, 100%, 74%);
     background-image: url('../images/bg-intro-desktop.png'); 
     
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 24px;
+    width: 1440px;
+   
+}
+
+.container-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    width: 50%;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.container-title {
+    width: 60%;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.container-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    width: 60%;
+}
+
+.container-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    background-color: var(--purple);
+    padding: 24px;
+    border-radius: 8px;
+    color: var(--white);
+}
+
+.container-form {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form input {
+    padding: 12px;
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: 16px;
 }
