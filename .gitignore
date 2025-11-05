@@ -26,6 +26,7 @@ npm-debug.log*
 /dist
 /.next
 /out
+README-template.md
 style-guide.md
 
 # IDEs and editors
